@@ -1,0 +1,23 @@
+@import './Fonts.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: IRANSans;
+    direction: rtl;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    color: #72777B;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

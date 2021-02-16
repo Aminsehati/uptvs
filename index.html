@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header bg-white top-fixed position-sticky shadow p-10  ">
+        <!--mobile search-->
+        <div class="mobile-search bg-white shadow  d-none position-absolute  p-20 w-100">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <a href="#" class="d-inline-block text-gray hide-search">
+                        بستن
+                    </a>
+                </div>
+                <div class="col">
+                    <form class="form-search">
+                        <div class="form-search-row">
+                            <input type="text" class="form-control" placeholder="کلمه موردنیاز...">
+                            <button type="button" class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        <!--mobile search-->
+        <div class="container">
+            <div class="row align-items-center justify-center-lg">
+                <!--bars-->
+                <div class="col-auto">
+                    <a href="#" class="d-inline-block btn-45 bg-light text-center rounded d-lg-none">
+                        <i class="fas fa-bars text-gray line-height-45 small-17 "></i>
+                    </a>
+                </div>
+                <!--bars-->
+                <!--logo-->
+                <div class="col-auto">
+                <a href="#">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="95.427" height="36" viewBox="0 0 95.427 36">
+                        <defs>
+                            <linearGradient id="linear-gradient" x1="-0.136" y1="0.316" x2="0.976" y2="0.893" gradientUnits="objectBoundingBox">
+                                <stop offset="0" stop-color="#ffb884"></stop>
+                                <stop offset="1" stop-color="#f1658f"></stop>
+                            </linearGradient>
+                            <linearGradient id="linear-gradient-2" x1="0.038" y1="0.429" x2="0.962" y2="0.524" gradientUnits="objectBoundingBox">
+                                <stop offset="0" stop-color="#f57b8c"></stop>
+                                <stop offset="1" stop-color="#feb385"></stop>
+                            </linearGradient>
+                        </defs>
+                        <g id="Group_40" data-name="Group 40" transform="translate(-1498.573 -31)">
+                            <g id="Layer_201" data-name="Layer%201" transform="translate(1444 31)">
+                                <g id="Group_1" data-name="Group 1">
+                                    <path id="Path_1" data-name="Path 1" d="M123,11.724C123,9.9,123.915,9,125.761,9h21.478c1.846,0,2.761.9,2.761,2.724V29.276C150,31.1,149.085,32,147.239,32H125.761c-1.846,0-2.761-.9-2.761-2.724Z" fill="url(#linear-gradient)"></path>
+                                </g>
+                                <g id="Group_2" data-name="Group 2">
+                                    <path id="Path_2" data-name="Path 2" d="M126,14.013c0-1.346.712-2.013,2.148-2.013h16.7c1.436,0,2.148.667,2.148,2.013V26.987c0,1.346-.712,2.013-2.148,2.013h-16.7c-1.436,0-2.148-.667-2.148-2.013Z" fill="#fff"></path>
+                                </g>
+                                <g id="Group_3" data-name="Group 3">
+                                    <path id="Path_3" data-name="Path 3" d="M129.833.37a1.217,1.217,0,0,1,1.689-.057l5.622,5.228a1.145,1.145,0,0,1,.023,1.648h0a1.217,1.217,0,0,1-1.689.057l-5.622-5.228A1.145,1.145,0,0,1,129.833.37Z" fill="#f99289"></path>
+                                </g>
+                                <g id="Group_4" data-name="Group 4">
+                                    <path id="Path_4" data-name="Path 4" d="M143.167.37a1.217,1.217,0,0,0-1.689-.057l-5.622,5.228a1.145,1.145,0,0,0-.023,1.648h0a1.217,1.217,0,0,0,1.689.057l5.622-5.228A1.145,1.145,0,0,0,143.167.37Z" fill="#f99389"></path>
+                                </g>
+                                <g id="Group_5" data-name="Group 5">
+                                    <path id="Path_5" data-name="Path 5" d="M128,35a1.067,1.067,0,0,1,1.123-1h14.754A1.067,1.067,0,0,1,145,35h0a1.067,1.067,0,0,1-1.123,1H129.123A1.067,1.067,0,0,1,128,35Z" fill="url(#linear-gradient-2)"></path>
+                                </g>
+                            </g>
+                            <path id="Path_70" data-name="Path 70" d="M8.686,3.78H4.2a3.481,3.481,0,0,1-1.4-.286,3.708,3.708,0,0,1-1.155-.783A3.708,3.708,0,0,1,.859,1.556,3.481,3.481,0,0,1,.573.153V-3.933H2.482V.153a1.645,1.645,0,0,0,.506,1.222,1.67,1.67,0,0,0,1.212.5H8.686a1.172,1.172,0,0,0,.878-.353A1.2,1.2,0,0,0,9.908.649a1.229,1.229,0,0,0-.229-.725A1.033,1.033,0,0,0,9.125-.5L4.868-1.585V-3.379A3.536,3.536,0,0,1,5.1-4.649a3.369,3.369,0,0,1,.64-1.06,3.107,3.107,0,0,1,.993-.735A2.919,2.919,0,0,1,8-6.72l3.055.057V-4.83H8a1.242,1.242,0,0,0-.506.1,1.43,1.43,0,0,0-.41.267,1.374,1.374,0,0,0-.277.363.84.84,0,0,0-.1.391v.783q.725.134,1.384.286t1.5.363A2.914,2.914,0,0,1,11.206-1.2,2.972,2.972,0,0,1,11.817.649a3.1,3.1,0,0,1-1.9,2.892A3.124,3.124,0,0,1,8.686,3.78Zm6.033.725-.5-1.642.344-.115q.115-.038.22-.076t.22-.076a11.136,11.136,0,0,0,1.107-.41,4.577,4.577,0,0,0,.935-.525A2.537,2.537,0,0,0,17.7.85a1.861,1.861,0,0,0,.229-1.021H16.418a3.318,3.318,0,0,1-1.327-.267,3.346,3.346,0,0,1-1.079-.735,3.541,3.541,0,0,1-.725-1.088,3.318,3.318,0,0,1-.267-1.327,3.339,3.339,0,0,1,.267-1.317A3.511,3.511,0,0,1,14.013-6a3.476,3.476,0,0,1,1.079-.745,3.219,3.219,0,0,1,1.327-.277,3.219,3.219,0,0,1,1.327.277A3.6,3.6,0,0,1,18.833-6a3.458,3.458,0,0,1,.735,1.088,3.318,3.318,0,0,1,.267,1.327V-.535a5.249,5.249,0,0,1-.353,1.957,4.339,4.339,0,0,1-1.155,1.613,3.212,3.212,0,0,1-.64.43q-.353.181-.735.334t-.754.267q-.372.115-.7.21-.115.038-.21.067T15.1,4.41Zm1.7-9.641a1.474,1.474,0,0,0-.592.124,1.408,1.408,0,0,0-.487.344,1.858,1.858,0,0,0-.325.5,1.408,1.408,0,0,0-.124.582A1.439,1.439,0,0,0,15.34-2.52a1.487,1.487,0,0,0,1.079.439h1.546V-3.589a1.408,1.408,0,0,0-.124-.582,1.747,1.747,0,0,0-.334-.5,1.538,1.538,0,0,0-.487-.344A1.453,1.453,0,0,0,16.418-5.135ZM30.355,4.353H24.016A3.04,3.04,0,0,1,22.795,4.1a3.057,3.057,0,0,1-.983-.668,3.121,3.121,0,0,1-.649-.993,3.145,3.145,0,0,1-.239-1.222A3.075,3.075,0,0,1,21.162.01a3.182,3.182,0,0,1,.659-.993,3.121,3.121,0,0,1,.983-.678,2.972,2.972,0,0,1,1.212-.248h8.3A1.23,1.23,0,0,0,33.18-2.3a1.228,1.228,0,0,0,.363-.888V-6.224h1.909v3.093A2.972,2.972,0,0,1,35.2-1.919a3.324,3.324,0,0,1-.668.993,3.121,3.121,0,0,1-.983.678A2.972,2.972,0,0,1,32.34,0H24.016a1.181,1.181,0,0,0-.869.353,1.181,1.181,0,0,0-.353.869,1.174,1.174,0,0,0,.363.859,1.174,1.174,0,0,0,.859.363h6.338ZM35.49-7.426H33.715V-9.24H35.49Zm-2.959,0H30.755V-9.24h1.775ZM50.114,0H44.2a3.944,3.944,0,0,1-1.546-.305,3.9,3.9,0,0,1-1.26-.84,3.9,3.9,0,0,1-.84-1.26,3.944,3.944,0,0,1-.305-1.546v-2.31h1.871v2.31a2.029,2.029,0,0,0,.162.8,1.95,1.95,0,0,0,.439.649,2.145,2.145,0,0,0,.659.43,2.077,2.077,0,0,0,.821.162h5.918a2.077,2.077,0,0,0,.821-.162,2.059,2.059,0,0,0,.659-.439,2.088,2.088,0,0,0,.439-.649,2.008,2.008,0,0,0,.162-.811V-6.262h1.871v2.31a3.944,3.944,0,0,1-.305,1.546,3.9,3.9,0,0,1-.84,1.26,3.9,3.9,0,0,1-1.26.84A3.944,3.944,0,0,1,50.114,0ZM46.467,5.155h1.756V6.949H46.467Zm-1.489-2.94h1.775V4.028H44.978Zm2.959,0h1.775V4.028H47.937ZM58.819,0H56.91V-10.5h1.909ZM55.574-10.748l-1.508-.573.1-.191a3.814,3.814,0,0,1,1.012-1.25,2.278,2.278,0,0,1,1.47-.506l3.379-.019v1.6H57.044a1.592,1.592,0,0,0-.888.21A1.9,1.9,0,0,0,55.574-10.748Z" transform="translate(1498 54)" fill="#46484d"></path>
+                        </g>
+                    </svg>
+                </a>
+
+                </div>
+                <!--logo-->
+                <!--Nav-->
+                <nav class="col-lg d-lg-block d-md-none d-sm-none d-none">
+                    <ul class="menu pr-20">
+                        <li class="menu-item">
+                            <a href="#">
+                                فیلم خارجی
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                فیلم ایرانی
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                انیمیشن
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                سریال خارجی
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                سریال ایرانی
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                دوبله فارسی
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                بهترین ها
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                سال
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Nav-->
+                <!--search area-->
+                <div class="col-lg-3 col-sm">
+                    <form class="form-search">
+                        <div class="form-search-row">
+                            <input type="text" class="form-control" placeholder="کلمه موردنیاز">
+                            <button type="button" class="search_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!--search area-->
+                <!--search icon-->
+                <div class="col-auto">
+                    <a href="#" class="d-inline-block btn-45 bg-light text-center rounded d-none btn-search">
+                        <i class="fas fa-search text-gray line-height-45 "></i>
+                    </a>
+                </div>
+                <!--search icon-->
+               
+            </div>
+            
+        </div>
+    </header>
+    <!--Header-->
+    <!--top choices-->
+    <section class="top-choices py-30 ">
+        <div class="container">
+            <div class="row">
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/We-Can-Be-Heroes-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p class="small-13">
+                                <span class="d-inline-block text-white-75 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    83%
+                                </span>
+                                <span class="d-inline-block text-white-75">
+                                    <i class="fab fa-imdb"></i>
+                                    4.8/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15">
+                                فیلم ما میتوانیم قهرمان شویم
+                            </h1>
+                            <p class="text-white-75 small-12">
+                                We Can Be Heroes 2020
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange small-13 h4">
+                                   زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/The-Golden-Holiday-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p class="text-white-75">
+                                <span class="d-inline-blcok small-13 h4 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    83%
+                                </span>
+                                <span class="d-inline-blcok small-13 h4">
+                                    <i class="fab fa-imdb"></i>
+                                    5.2/10
+                                </span>
+                            </p>
+                            <h1 class="small-15 h4 text-white">
+                                فیلم تعطیلات طلایی
+                            </h1>
+                            <p class="small-12 h4 text-white-75">
+                                The Golden Holiday 2020
+                            </p>
+                            <p>
+                                <span class="badge border-orange text-orange small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative ">
+                        <img src="img/English-Dogs-In-Bangkok-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block text-white-75 small-13 h4 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    83%
+                                </span>
+                                <span class="d-inline-block text-white-75 small-13 h4">
+                                    <i class="fab fa-imdb"></i>
+                                    8.1/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15 h4">
+                                فیلم سگ های انگلیسی در بانکوک
+                            </h1>
+                            <p class="small-12 h4 text-white-75">
+                                English Dogs In Bangkok 2020
+                            </p>
+                            <p >
+                                <span class="badge text-green border-green small-13 h4">
+                                    دوبله فارسی
+                                </span>
+                            </p>
+                        </div>
+
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/Enhanced-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                           <p>
+                               <span class="d-inline-blcok ml-10 text-white-75 small-13 h4">
+                                <i class="fas fa-heart"></i>
+                                81%
+                               </span>
+                               <span class="d-inline-block small-13 h4 text-white-75">
+                                <i class="fab fa-imdb"></i>
+                                4.2/10
+                               </span>
+                           </p>
+                           <h1 class="text-white small-15 h4">
+                            فیلم افسون
+                           </h1>
+                           <p class="small-12 h4 text-white-75">
+                            Enhanced 2020
+                           </p>
+                           <p>
+                               <span class="badge border-green text-green small-13 h4">
+                                دوبله فارسی
+                               </span>
+
+                           </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/Savage-2019-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block text-white-75 small-13 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    79%
+                                </span>
+                                <span class="d-inline-block text-white-75 small-13">
+                                    <i class="fab fa-imdb"></i>
+                                    6.4/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15">
+                                فیلم وحشی
+                            </h1>
+                            <p class="text-white-75 small-12">
+                                Savage 2019
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/Skylines-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block text-white-75 small-13 h4 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    81%
+                                </span>
+                                <span class="d-inline-block text-white-75 small-13 h4">
+                                    <i class="fab fa-imdb"></i>
+                                    4.6/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15 h4">
+                                فیلم خطوط هوایی
+                            </h1>
+                            <p class="text-white-75 small-12">
+                                Skylines 2020
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/download.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block small-13 h4 text-white-75 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    80%
+                                </span>
+                                <span class="d-inline-block small-13 h4 text-white-75 ml-10">
+                                    <i class="fab fa-imdb"></i>
+                                    6/10
+                                </span>
+                            </p>
+                            <h1 class="small-15 text-white ">
+                                فیلم قورباغه
+                            </h1>
+                            <p class="small-12 text-white-75">
+                                قسمت دوم
+                            </p>
+                            <p>
+                                <span class="badge small-13 h4 text-yellow border-yellow">
+                                    فیلم برتر
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/Soul-2020-header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block small-13 h4 text-white-75 ml-10">
+                                    89%
+                                </span>
+                                <span class="d-inline-block small-13 h4 text-white-75">
+                                    <i class="fab fa-imdb"></i>
+                                    8.3/10
+                                </span>
+                            </p>
+                            <h1 class="small-15 h4 text-white">
+                                انیمشن روح
+                            </h1>
+                            <p class="text-white-75 small-12">
+                                Soul 2020
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange  small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 position-relative top-choices-item"> 
+                        <img src="img/The-Kid-Detective-2020-header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block small-13 h4 text-white-75 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    85%
+                                </span>
+                                <span class="d-inline-block small-13 h4 text-white-75">
+                                    <i class="fab fa-imdb"></i>
+                                    8.3/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15">
+                                فیلم کارآگاه بچه
+                            </h1>
+                            <p class="small-12 text-white-75">
+                                Soul 2020
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6 mb-15">
+                    <a href="#" class="d-block w-100 top-choices-item position-relative">
+                        <img src="img/Safety-2020-header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block small-13 h4 text-white-75 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    85%
+                                </span>
+                                <span class="d-inline-block small-13 h4 text-white-75">
+                                    <i class="fab fa-imdb"></i>
+                                    6.8/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15">
+                                فیلم ایمنی
+                            </h1>
+                            <p class="text-white-75 small-13">
+                                Safety 2020
+                            </p>
+                            <p>
+                                <span class="badge text-orange border-orange small-13 h4">
+                                    زیرنویس چسبیده
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4  col-6 mb-15">
+                    <a href="#" class="d-block w-100 position-relative top-choices-item">
+                        <img src="img/Aghazadeh-27-header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block text-white-75 small-13 h4 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    85%
+                                </span>
+                                <span class="d-inline-block text-white-75 small-13 h4">
+                                    <i class="fab fa-imdb"></i>
+                                    6.8/10
+                                </span>
+                            </p>
+                            <h1 class="small-15 text-white">
+                                فیلم آقازاده
+                            </h1>
+                            <p class="text-white-75 small-13">
+                                قسمت 27
+                            </p>
+                            <p>
+                                <span class="badge text-yellow border-yellow small-13 h4">
+                                    فیلم برتر
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+                <!--top choices item-->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block w-100 position-relative top-choices-item">
+                        <img src="img/The-Croods-2-A-New-Age-2020-Header.jpg" alt="" class="rounded mw-100">
+                        <div class="top-choices-desc position-absolute pt-20 px-20">
+                            <p>
+                                <span class="d-inline-block text-white-75 small-13 h4 ml-10">
+                                    <i class="fas fa-heart"></i>
+                                    91%
+                                </span>
+                                <span class="d-inline-block text-white-75 small-13 h4">
+                                    <i class="fab fa-imdb"></i>
+                                    7.2/10
+                                </span>
+                            </p>
+                            <h1 class="text-white small-15">
+                                انیمشن غارنشینان
+                            </h1>
+                            <p class="text-white-75 small-12 ">
+                                قسمت 27
+                            </p>
+                            <p>
+                                <span class="badge border-green text-green small-13 h4">
+                                    دوبله فارسی
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!--top choices item-->
+            </div>
+        </div>
+    </section>
+    <!--top choices-->
+    <!--main-->
+    <main class="main bg-light py-20" id="main">
+        <div class="container">
+            <div class="row">
+                <!--layout-->
+                <div class="col-lg-9 ">
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-20">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/2021-01-01-13.46.28-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">
+                                            دانلود سریال آقازاده از قسمت اول تا بیست و هشتم
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        82% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امین حیایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امین تارخ
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                بهرنگ توفیقی
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-none d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        که در ژانر درام می باشد ماجراهای چالش برانگیزی اتفاق خواهد افتاد و در کنار روایتی عاشقانه...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-none d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            4.2
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="#" class="d-block w-100 text-sm-end text-center">
+                                    <img src="img/Mardi-Bedon-Saieh-1-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                        Full HD دانلود فیلم مردی بدون سایه (رایگان) با کیفیت
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        72% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                علی مصفا
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                فرهاد اصلانی
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                علیرضا رئیسبان
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        ماهان کوشان پس از ساخت یک فیلم مستند درباره خشونت، زندگی‌اش تهدید شده و همسرش سایه، عاشقانه...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block pt-sm-3 d-none">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            4.2
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/roosi-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                        Full HD دانلود فیلم روسی (رایگان) با کیفیت
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            جنایی
+                                        </a>
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        72% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                میلاد کی مرام
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                صابر ابر
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Amir Hossein Saghafi
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        توماج (امیر آقایی) موفق می‌شود تا از زندان فرار کند اما زمانی که نزد همسرش (طناز طباطبایی)...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            3.4
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/shenaye-parvaneh-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            دانلود فیلم شنای پروانه با کیفیت عالی و لینک مستقیم
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            جنایی
+                                        </a>
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        72% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                میلاد کی مرام
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                صابر ابر
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Amir Hossein Saghafi
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        فیلمی از زنی به نام پروانه (طناز طباطبایی) در حین شنا در استخر در فضای مجازی منتشر...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            7.5
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/harim-shakhsi-up-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            
+دانلود فیلم حریم شخصی با کیفیت 4K با کیفیت فوق العاده
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            جنایی
+                                        </a>
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        72% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                میلاد کی مرام
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                صابر ابر
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Amir Hossein Saghafi
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        فیلمی از زنی به نام پروانه (طناز طباطبایی) در حین شنا در استخر در فضای مجازی منتشر...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            7.5
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/raghs-s1-end-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            دانلود سریال رقص روی شیشه با کیفیت 4k
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        50% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                میلاد کی مرام
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                صابر ابر
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Amir Hossein Saghafi
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        یک ملودرام در سبک اجتماعی و عاشقانه در نکوهش مهاجرت و در ستایش خانواده است. رعنا و...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1398
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            4.2
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/bedone-tarikh-bedooone-emza-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            
+دانلود فیلم بدون تاریخ بدون امضا با کیفیت 4K
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            رازآلود
+                                        </a>
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        50% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                هدیه تهرانی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                نوید محمو زاده
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Vahid Jalilvand
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        دکتر کاوه نریمان (امیر آقایی) در زمان رانندگی با یک موتورسیکلت که خانواده ای سوار آن بوده...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1397
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            7.2
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/saadat-abad-1-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            
+دانلود فیلم سعادت آباد با کیفیت HD
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        78% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                حامد بهداد
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                هنگامه قاضیانی
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                مازیار میری
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        دکتر کاوه نریمان (امیر آقایی) در زمان رانندگی با یک موتورسیکلت که خانواده ای سوار آن بوده...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1397
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            6.5
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/niloofar-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            دانلود فیلم نیلوفر با کیفیت 720p و لینک مستقیم
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        78% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                امیر آقایی
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Nayereh Farahani
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Mobina Aynehdar
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Sabine El Gemayel
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        داستان یک دختر بچه عراقی است که در سر رویای درس خواندن و پزشک شدن را می‌پروراند....
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            1397
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            ایران
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            7.3
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/The-Legend-of-Baron-Toa-2020-Poster-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center"">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                        
+دانلود فیلم The Legend of Baron To’a 2020 افسانه بارون توآ با زیرنویس فارسی
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center"">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        78% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Shavaughn Ruakere 
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Nayereh Farahani 
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Jay Laga'aia
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Kiel McNaughton
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        بارون توآ یک قهرمان کشتی گیر محلی است. پس از فوت او کمربند قهرمانی اش به سرقت...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            2020
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            نیوزلند
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            6.1
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/Roald-Beatrix-2020-Poster-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            
+دانلود فیلم Roald and Beatrix 2020 روالد و بئاتریکس دم موش کنجکاو با زیرنویس فارسی
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            خانوادگی
+                                        </a>
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        78% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Nick Mohammed 
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Nathaniel Lees
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Bill Bailey
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Bill Bailey
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        زمانی که رولد دال شش ساله با همزادش بئاتریکس پاتر ملاقات می کند…
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            2020
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            آمریکا
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            6.8
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/Songbird-2020-207x290.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            دانلود فیلم Songbird 2020 پرنده آوازخوان با دوبله فارسی
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            درام
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            رمانتیک
+                                        </a>
+
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        84% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                K.J. Apa 
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Craig Robinson
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Bradley Whitford
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Adam Mason
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        در سال ۲۰۲۲ ، یک بیماری همه‌گیر تمام دنیا و شهرهایش را تحت تاثیر قرار می‌دهد. که...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            2020
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            آمریکا
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                           4.4
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--post layout-->
+                    <article class="post-layout bg-white shadow rounded p-20 mb-15">
+                        <div class="row">
+                            <div class="col-sm-3 text-sm-end text-center">
+                                <a href="#" class="d-block w-100">
+                                    <img src="img/vikings-s6-min-214x300.jpg" alt="" class="rounded mw-100">
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <div class="post-layout-header pt-10 text-sm-end text-center">
+                                    <a href="#">
+                                        <h1 class="small-16 h6 text-dark">    
+                                            دانلود سریال Vikings وایکینگ ها فصل ششم
+                                        </h1>
+                                    </a>
+                                </div>
+                                <div class="post-layout-meta pt-5 pb-10 border-bottom text-sm-end text-center">
+                                    <span class="d-inline-block small-13 h4 ml-15 text-gray">
+                                        <i class="fas fa-bars text-gray"></i>
+                                        
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            اکشن
+                                        </a>
+                                        ،
+                                        <a href="#" class="d-inline-block text-gray hover-blue">
+                                            تاریخی
+                                        </a>
+
+                                       
+                                        
+                                    </span>
+                                    <span class="d-inline-block small-13 h4 text-gray">
+                                        <i class="fas fa-heart"></i>
+                                        84% رضایت
+                                    </span>
+                                </div>
+                                <div class="py-20 d-lg-block d-md-block d-sm-none d-none">
+                                    <div class="mb-5">
+                                        <span class="small-13 h4 text-gray">
+                                            بازیگران :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Gustaf Skarsgård
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Craig Robinson
+                                            </a>
+                                            ،
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Alexander Ludwig
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="d-inline-block small-13 h4 text-gray">
+                                            کارگردان :
+                                            <a href="#" class="text-gray1 d-inline-block hover-blue">
+                                                Adam Mason
+                                            </a>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="alert alert-light d-lg-block d-md-block d-sm-none d-none">
+                                    <p class="small-13 mb-0">
+                                        درباره فردی است به نام رگنار لاثبروک که با پادشاه آن دوران وایکینگ ها به مخالفت برمیخیزد...
+                                    </p>
+                                </div>
+                                <div class="clearfix line-height-38 d-lg-block d-md-block d-sm-block d-none pt-sm-3">
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fas fa-calendar-alt text-gray small-14"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            سال انتشار:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                           2013
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block pl-20">
+                                        <i class="fa fa-globe text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            کشور:
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                            کانادا
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <i class="fab fa-imdb text-gray small-14" aria-hidden="true"></i>
+                                        <span class="d-inline-block text-gray small-13">
+                                            امتیاز :
+                                        </span>
+                                        <span class="d-inline-block text-gray1 small-12 h5">
+                                           8.6
+                                        </span>
+                                    </div>
+                                    <div class="d-inline-block float-start">
+                                        <a href="#" class="btn btn-outline-primary small-14">
+                                            <i class="fas fa-download"></i>
+                                            دانلود فیلم
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </article>
+                    <!--post layout-->
+                    <!--page number-->
+                    <div class="page-number bg-white shadow rounded py-20">
+                        <ul class="page__number">
+                            <li class="active_page">
+                                صفحه 1 از 359
+                            </li>
+                            <li>
+                                <a href="#" class="active__page">
+                                    1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    5
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--page number-->
+                </div>
+                <!--layout-->
+                <!--Aside-->
+                <div class="col-lg-3 ">
+                    <aside class="main-aside">
+                        <!--sibar Tabs-->
+                        <div class="sidbar_tabs bg-light1 rounded position-relative">
+                            <div class="sidbar_tabs_active ">
+
+                            </div>
+                            <div class="row py-18 g-0">
+                                <div class="col text-center">
+                                    <a href="#" class="text-gray1">
+                                        به روز شده
+                                    </a>
+                                </div>
+                                <div class="col text-center">
+                                    <a href="#" class="text-gray1">
+                                        فیلتر جستجو
+                                    </a>
+                                </div>
+                            </div>
+                
+                        </div>
+                        <!--sibar Tabs-->
+                        <!--get update section-->
+                        <div class="getupdate-section py-20">
+                            <div class="getupdate-title d-flex justify-content-between mb-15">
+                                <h5 class="small-16 h6">
+                                    <span class="d-inline-block ml-5">
+                                        <i class="fas fa-film  small-18 text-gray"></i>
+                                    </span>
+                                    آپدیت سریال
+                                </h5>
+                                <a href="#" class="text-gray small-13 hover-blue">
+                                    مشاهده همه
+                                </a>
+                            </div>
+                            <div class="getupdate-content">
+                                <div class="row">
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/stand-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3">
+                                                    سریال The Walking Dead World Beyond
+                                                </span>
+                                                <span class="d-inline-block float-start text-white small-11 h3 border-white px-5 py-3 rounded">
+                                                    امروز
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                     <!--get update item-->
+                                     <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/Perry-Mason-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    سریال Perry Mason
+                                                </span>
+                                                <span class="d-inline-block float-start small-11 h3 border-white text-white rounded px-5 py-3 m-0">
+                                                    5 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class=" col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/reacher.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    سریال Ratched
+                                                </span>
+                                                <span class="d-inline-block text-white border-white py-3 px-5 float-start small-11 h3 rounded m-0">
+                                                    9 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class=" col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/chini-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    سریال Serenade of Peaceful Joy
+                                                </span>
+                                                <span class="d-inline-block small-11 h3 border-white py-3 px-5 float-start text-white rounded m-0">
+                                                    12 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class=" col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/walking-dead-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    سریال Fear the Walking Dead
+                                                </span>
+                                                <span class="d-inline-block float-start small-11 h3 text-white border-white px-5 py-3 rounded m-0" >
+                                                    13 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/tale-of-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    دانلود سریال Fear the Walking Dead
+                                                </span>
+                                                <span class="d-inline-block small-11 h3 border-white rounded px-5 py-3 text-white float-start m-0">
+                                                    13 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/lie-to-me-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال Lie to Me 
+                                                </span>
+                                                <span class="d-inline-block border-white px-5 py-3 small-11 h3 rounded float-start text-white m-0">
+                                                    17 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/agent-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    دانلود سریال Agents of S.H.I.E.L.D ماموران
+                                                </span>
+                                                <span class="d-inline-block float-start text-white px-5 py-2 border-white rounded small-11 h3 m-0">
+                                                    19 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/The-Walking-Dead-World-Beyond-Banner.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال The Mandalorian
+                                                </span>
+                                                <span class="d-inline-block border-white rounded px-5 py-3 text-white small-11 h3 float-start m-0">
+                                                    3 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/his-dark-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    His Dark Materials
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                  3 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/The-Mandalorian-Banner.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال The Mandalorian
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                  3 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/doxtor-how.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال Doctor Who
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                  22 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/legacies.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال Legacies
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                   30 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/gambit-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال The Queen’s Gambit
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                    36 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/boys-poster.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال The Boys پسرها فصل دوم
+
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                    48 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/vampire-jadval.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc w-100 position-absolute">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    دانلود سریال The Boys پسرها فصل دوم
+                                                </span>
+                                                <span class="d-inline-block float-start text-white m-0 py-3 px-5 border-white small-11 h3 rounded">
+                                                    76 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--get update section-->
+                        <!--main aside wrap-->
+                        <div class="main-aside-wrap bg-white shadow rounded">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+                                        <defs>
+                                            <linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#cce3fb"></stop>
+                                                <stop offset="1" stop-color="#5facfa"></stop>
+                                            </linearGradient>
+                                            <filter id="b" x="0" y="0" width="90" height="90" filterUnits="userSpaceOnUse">
+                                                <feOffset dy="2" input="SourceAlpha"></feOffset>
+                                                <feGaussianBlur stdDeviation="7.5" result="c"></feGaussianBlur>
+                                                <feFlood flood-color="#5facfa" flood-opacity="0.271"></feFlood>
+                                                <feComposite operator="in" in2="c"></feComposite>
+                                                <feComposite in="SourceGraphic"></feComposite>
+                                            </filter>
+                                            <linearGradient id="d" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#fccf78"></stop>
+                                                <stop offset="1" stop-color="#ff8a7d"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <g transform="translate(-519.5 -1013.5)">
+                                            <circle cx="29.5" cy="29.5" r="29.5" transform="translate(535 1027)" opacity="0.1" fill="url(#a)"></circle>
+                                            <g transform="matrix(1, 0, 0, 1, 519.5, 1013.5)" filter="url(#b)">
+                                                <circle cx="22.5" cy="22.5" r="22.5" transform="translate(22.5 20.5)" fill="#fff"></circle>
+                                            </g>
+                                            <g transform="translate(557.244 1044.938)">
+                                                <g transform="translate(0 10.863)">
+                                                    <g transform="translate(0)">
+                                                        <path d="M92.785,210.2a.8.8,0,1,0-1.594,0,5.631,5.631,0,0,1-11.261,0,.8.8,0,1,0-1.594,0,7.223,7.223,0,0,0,6.427,7.2v2.125h-2.9a.8.8,0,1,0,0,1.594h7.384a.8.8,0,1,0,0-1.594h-2.9V217.4A7.223,7.223,0,0,0,92.785,210.2Z" transform="translate(-78.336 -209.408)" fill="url(#d)"></path>
+                                                    </g>
+                                                </g>
+                                                <g transform="translate(2.789)">
+                                                    <g transform="translate(0)">
+                                                        <path d="M136.531,0A4.443,4.443,0,0,0,132.1,4.435v7.2a4.435,4.435,0,1,0,8.871.027V4.435A4.443,4.443,0,0,0,136.531,0Z" transform="translate(-132.096)" fill="url(#d)"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col py-20">
+                                    <span class="d-inline-block small-13 h4 ">
+                                        فقط در آپ تیوی
+                                    </span>
+                                    <h5 class="small-16">
+                                        دوبله‌های فارسی
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row px-10 pb-10">
+                                <div class="col-12">
+                                    <a href="#" class="btn btn-light btn-block small-13 h4 py-10">
+                                        انیمیشن دوبله فارسی
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <a href="#" class="btn btn-light btn-block small-13 h4 py-10">
+                                        فیلم های دوبله فارسی
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!--main aside wrap-->
+                        <!--get update section-->
+                        <div class="getupdate-section py-20">
+                            <div class="getupdate-title d-flex justify-content-between mb-15">
+                                <h5 class="small-16 h6">
+                                    <span class="d-inline-block ml-5">
+                                        <i class="fas fa-film  small-18 text-gray"></i>
+                                    </span>
+                                    دوبله آپ تی وی
+                                </h5>
+                                <a href="#" class="text-gray small-13 hover-blue">
+                                    مشاهده همه
+                                </a>
+                            </div>
+                            <div class="getupdate-content">
+                                <div class="row">
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/Looney-Tunes-Cartoons-Banner.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    انمیشن لونی تونز
+                                                </span>
+                                                <span class="d-inline-block float-start text-white small-11 h3 border-white px-5 py-3 rounded m-0">
+                                                    211 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                     <!--get update item-->
+                                     <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/The-Legend-of-Korra-s4-Header-banner.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    انیمشن آواتار کورا
+                                                </span>
+                                                <span class="d-inline-block float-start small-11 h3 border-white text-white rounded px-5 py-3 m-0">
+                                                    5 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/The-Old-Guard-2020-header.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    فیلم نگهبان قدیمی
+                                                </span>
+                                                <span class="d-inline-block text-white border-white py-3 px-5 float-start small-11 h3 rounded m-0">
+                                                    217 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/Scoob-2020-sid.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    فیلم اسکوب
+                                                </span>
+                                                <span class="d-inline-block small-11 h3 border-white py-3 px-5 float-start text-white rounded m-0">
+                                                    307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/sicario2.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    فیلم سیکاریو 2
+                                                </span>
+                                                <span class="d-inline-block float-start small-11 h3 text-white border-white px-5 py-3 rounded m-0" >
+                                                    307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/Extraxtion.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    فیلم استخراج
+                                                </span>
+                                                <span class="d-inline-block small-11 h3 border-white rounded px-5 py-3 text-white float-start m-0">
+                                                   307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/Adams.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    انیمشن خانواده آدامز
+                                                </span>
+                                                <span class="d-inline-block border-white px-5 py-3 small-11 h3 rounded float-start text-white m-0">
+                                                    307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 getupdate-item position-relative">
+                                            <img src="img/Pet2.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block small-13 h3 text-white m-0">
+                                                    انیمشن زندگی پنهان حیوانات 2
+                                                </span>
+                                                <span class="d-inline-block float-start text-white px-5 py-2 border-white rounded small-11 h3 m-0">
+                                                    307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->
+                                    <!--get update item-->
+                                    <div class="col-md-12 col-sm-6 col-12 mb-15">
+                                        <a href="#" class="d-block w-100 position-relative getupdate-item">
+                                            <img src="img/Lion.jpg" alt="" class="rounded w-100">
+                                            <div class="getupdate-desc position-absolute w-100">
+                                                <span class="d-inline-block text-white small-13 h3 m-0">
+                                                    انیمشن شیر شاه
+                                                </span>
+                                                <span class="d-inline-block border-white rounded px-5 py-3 text-white small-11 h3 float-start m-0">
+                                                    307 روز پیش
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--get update item-->                                                     
+                                </div>
+                            </div>
+                        </div>
+                        <!--get update section-->
+                    </aside>
+                </div>
+                <!--Aside-->
+            </div>
+        </div>
+    </main>
+    <!--main-->
+    <!--main footer-->
+    <footer class="main-footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-7">
+                    <div class="help-section bg-white shadow rounded p-20">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="badge badge-yellow rounded">
+                                            <i class="fas fa-cog text-yellow small-24"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-10">
+                                        <a href="#">
+                                            <span class="text-gray mb-5 d-block small-13">
+                                                موردنیاز
+                                            </span>
+                                            <h6 class="text-dark small-15">
+                                                نرم افزار های موردنظر
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class=" badge badge-blue rounded ">
+                                            <i class="fas fa-volume-up text-blue small-24"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-10">
+                                        <a href="#">
+                                            <span class="text-gray mb-5 d-block small-13">
+                                                موردنیاز
+                                            </span>
+                                            <h6 class="text-dark small-15">
+                                                راهنمای تنظیم صدا
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="badge badge-green rounded">
+                                            <i class="fas fa-video text-green small-24"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col pt-10">
+                                        <a href="#">
+                                            <span class="text-gray mb-5 d-block small-13">
+                                                موردنیاز
+                                            </span>
+                                            <h6 class="text-dark small-15">
+                                                راهنمای فرمت ها
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5">
+                    <a href="#" class="btn-block btn-insta text-white rounded small-14 mb-10">
+                        <i class="fab fa-instagram small-16"></i>
+                        صفحه اینستاگرام
+                    </a>
+                    <a href="#" class="btn-block btn-telegram text-white rounded small-14">
+                        <i class="fab fa-telegram small-16"></i>
+                        کانال تلگرام
+                    </a>
+                </div>
+            </div>
+            <div class="py-20">
+                <div class="row">
+                    <div class="col-auto">
+                        <a href="#">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="95.427" height="36" viewBox="0 0 95.427 36">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="-0.136" y1="0.316" x2="0.976" y2="0.893" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#ffb884"></stop>
+                                        <stop offset="1" stop-color="#f1658f"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-2" x1="0.038" y1="0.429" x2="0.962" y2="0.524" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#f57b8c"></stop>
+                                        <stop offset="1" stop-color="#feb385"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <g id="Group_40" data-name="Group 40" transform="translate(-1498.573 -31)">
+                                    <g id="Layer_201" data-name="Layer%201" transform="translate(1444 31)">
+                                        <g id="Group_1" data-name="Group 1">
+                                            <path id="Path_1" data-name="Path 1" d="M123,11.724C123,9.9,123.915,9,125.761,9h21.478c1.846,0,2.761.9,2.761,2.724V29.276C150,31.1,149.085,32,147.239,32H125.761c-1.846,0-2.761-.9-2.761-2.724Z" fill="url(#linear-gradient)"></path>
+                                        </g>
+                                        <g id="Group_2" data-name="Group 2">
+                                            <path id="Path_2" data-name="Path 2" d="M126,14.013c0-1.346.712-2.013,2.148-2.013h16.7c1.436,0,2.148.667,2.148,2.013V26.987c0,1.346-.712,2.013-2.148,2.013h-16.7c-1.436,0-2.148-.667-2.148-2.013Z" fill="#fff"></path>
+                                        </g>
+                                        <g id="Group_3" data-name="Group 3">
+                                            <path id="Path_3" data-name="Path 3" d="M129.833.37a1.217,1.217,0,0,1,1.689-.057l5.622,5.228a1.145,1.145,0,0,1,.023,1.648h0a1.217,1.217,0,0,1-1.689.057l-5.622-5.228A1.145,1.145,0,0,1,129.833.37Z" fill="#f99289"></path>
+                                        </g>
+                                        <g id="Group_4" data-name="Group 4">
+                                            <path id="Path_4" data-name="Path 4" d="M143.167.37a1.217,1.217,0,0,0-1.689-.057l-5.622,5.228a1.145,1.145,0,0,0-.023,1.648h0a1.217,1.217,0,0,0,1.689.057l5.622-5.228A1.145,1.145,0,0,0,143.167.37Z" fill="#f99389"></path>
+                                        </g>
+                                        <g id="Group_5" data-name="Group 5">
+                                            <path id="Path_5" data-name="Path 5" d="M128,35a1.067,1.067,0,0,1,1.123-1h14.754A1.067,1.067,0,0,1,145,35h0a1.067,1.067,0,0,1-1.123,1H129.123A1.067,1.067,0,0,1,128,35Z" fill="url(#linear-gradient-2)"></path>
+                                        </g>
+                                    </g>
+                                    <path id="Path_70" data-name="Path 70" d="M8.686,3.78H4.2a3.481,3.481,0,0,1-1.4-.286,3.708,3.708,0,0,1-1.155-.783A3.708,3.708,0,0,1,.859,1.556,3.481,3.481,0,0,1,.573.153V-3.933H2.482V.153a1.645,1.645,0,0,0,.506,1.222,1.67,1.67,0,0,0,1.212.5H8.686a1.172,1.172,0,0,0,.878-.353A1.2,1.2,0,0,0,9.908.649a1.229,1.229,0,0,0-.229-.725A1.033,1.033,0,0,0,9.125-.5L4.868-1.585V-3.379A3.536,3.536,0,0,1,5.1-4.649a3.369,3.369,0,0,1,.64-1.06,3.107,3.107,0,0,1,.993-.735A2.919,2.919,0,0,1,8-6.72l3.055.057V-4.83H8a1.242,1.242,0,0,0-.506.1,1.43,1.43,0,0,0-.41.267,1.374,1.374,0,0,0-.277.363.84.84,0,0,0-.1.391v.783q.725.134,1.384.286t1.5.363A2.914,2.914,0,0,1,11.206-1.2,2.972,2.972,0,0,1,11.817.649a3.1,3.1,0,0,1-1.9,2.892A3.124,3.124,0,0,1,8.686,3.78Zm6.033.725-.5-1.642.344-.115q.115-.038.22-.076t.22-.076a11.136,11.136,0,0,0,1.107-.41,4.577,4.577,0,0,0,.935-.525A2.537,2.537,0,0,0,17.7.85a1.861,1.861,0,0,0,.229-1.021H16.418a3.318,3.318,0,0,1-1.327-.267,3.346,3.346,0,0,1-1.079-.735,3.541,3.541,0,0,1-.725-1.088,3.318,3.318,0,0,1-.267-1.327,3.339,3.339,0,0,1,.267-1.317A3.511,3.511,0,0,1,14.013-6a3.476,3.476,0,0,1,1.079-.745,3.219,3.219,0,0,1,1.327-.277,3.219,3.219,0,0,1,1.327.277A3.6,3.6,0,0,1,18.833-6a3.458,3.458,0,0,1,.735,1.088,3.318,3.318,0,0,1,.267,1.327V-.535a5.249,5.249,0,0,1-.353,1.957,4.339,4.339,0,0,1-1.155,1.613,3.212,3.212,0,0,1-.64.43q-.353.181-.735.334t-.754.267q-.372.115-.7.21-.115.038-.21.067T15.1,4.41Zm1.7-9.641a1.474,1.474,0,0,0-.592.124,1.408,1.408,0,0,0-.487.344,1.858,1.858,0,0,0-.325.5,1.408,1.408,0,0,0-.124.582A1.439,1.439,0,0,0,15.34-2.52a1.487,1.487,0,0,0,1.079.439h1.546V-3.589a1.408,1.408,0,0,0-.124-.582,1.747,1.747,0,0,0-.334-.5,1.538,1.538,0,0,0-.487-.344A1.453,1.453,0,0,0,16.418-5.135ZM30.355,4.353H24.016A3.04,3.04,0,0,1,22.795,4.1a3.057,3.057,0,0,1-.983-.668,3.121,3.121,0,0,1-.649-.993,3.145,3.145,0,0,1-.239-1.222A3.075,3.075,0,0,1,21.162.01a3.182,3.182,0,0,1,.659-.993,3.121,3.121,0,0,1,.983-.678,2.972,2.972,0,0,1,1.212-.248h8.3A1.23,1.23,0,0,0,33.18-2.3a1.228,1.228,0,0,0,.363-.888V-6.224h1.909v3.093A2.972,2.972,0,0,1,35.2-1.919a3.324,3.324,0,0,1-.668.993,3.121,3.121,0,0,1-.983.678A2.972,2.972,0,0,1,32.34,0H24.016a1.181,1.181,0,0,0-.869.353,1.181,1.181,0,0,0-.353.869,1.174,1.174,0,0,0,.363.859,1.174,1.174,0,0,0,.859.363h6.338ZM35.49-7.426H33.715V-9.24H35.49Zm-2.959,0H30.755V-9.24h1.775ZM50.114,0H44.2a3.944,3.944,0,0,1-1.546-.305,3.9,3.9,0,0,1-1.26-.84,3.9,3.9,0,0,1-.84-1.26,3.944,3.944,0,0,1-.305-1.546v-2.31h1.871v2.31a2.029,2.029,0,0,0,.162.8,1.95,1.95,0,0,0,.439.649,2.145,2.145,0,0,0,.659.43,2.077,2.077,0,0,0,.821.162h5.918a2.077,2.077,0,0,0,.821-.162,2.059,2.059,0,0,0,.659-.439,2.088,2.088,0,0,0,.439-.649,2.008,2.008,0,0,0,.162-.811V-6.262h1.871v2.31a3.944,3.944,0,0,1-.305,1.546,3.9,3.9,0,0,1-.84,1.26,3.9,3.9,0,0,1-1.26.84A3.944,3.944,0,0,1,50.114,0ZM46.467,5.155h1.756V6.949H46.467Zm-1.489-2.94h1.775V4.028H44.978Zm2.959,0h1.775V4.028H47.937ZM58.819,0H56.91V-10.5h1.909ZM55.574-10.748l-1.508-.573.1-.191a3.814,3.814,0,0,1,1.012-1.25,2.278,2.278,0,0,1,1.47-.506l3.379-.019v1.6H57.044a1.592,1.592,0,0,0-.888.21A1.9,1.9,0,0,0,55.574-10.748Z" transform="translate(1498 54)" fill="#46484d"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <nav class="col pt-10 ">
+                        <ul class="menu">
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم خارجی
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم ایرانی
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم جدید
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود انیمیشن
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود سریال
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    فال حافظ
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود سریال آقازاده
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود سریال قورباغه
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود سریال ملکه گدایان
+                                </a>
+                            </li>
+                            <li class="menu-list-item">
+                                <a href="#">
+                                    دانلود فیلم خوب بد جلف
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="col-lg-3 pt-10">
+                        <a href="#" class="d-block small-13 text-green">
+                            اپلیکیشن آپ تی وی
+                            <span class="d-inline-block float-start badge badge-green text-green small-13 h4">
+                                به زودی
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--main footer-->
+    <!--start js-->
+    <script src="js/app.js"></script>
+    <!--start js-->
+</body>
+</html>

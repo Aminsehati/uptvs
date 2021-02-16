@@ -1,0 +1,22 @@
+.main-footer{
+    .help-section{
+        .badge{
+            width: 62px;
+            height: 62px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .menu{
+        .menu-list-item{
+            display: inline-block;
+            margin-left: 20px;
+            padding-bottom: 20px;
+            a{
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+}

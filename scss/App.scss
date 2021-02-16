@@ -1,0 +1,25 @@
+.mobile-search-show{
+    top: 0 !important;
+    transition: all 400ms ease-in-out;
+}
+.hover-blue{
+    &:hover{
+        color:#5facfa !important; 
+    }
+}
+.alert-light{
+    background: #F6F9FD !important;
+    border: none;
+    p{
+        color: #7e92a7;
+    }
+}
+.btn-outline-primary{
+    color: #6898f8;
+    box-shadow: 0 0 !important;
+    padding: 10px 22px;
+    &:hover{
+        background: #6898f8 !important;
+        border: 1px solid #6898f8;
+    }
+}

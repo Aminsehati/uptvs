@@ -1,0 +1,38 @@
+.header{
+    .menu{
+        .menu-item{
+            display: inline-block;
+            margin-left: 25px;
+            a{
+                color:#72777B;
+                &:hover{
+                    color: #222222;
+                }
+            }
+        }
+    }
+    .form-search{
+        .form-search-row{
+            position: relative;
+            .form-control{
+                background: #F4F5F6;
+                box-shadow: 0 0;
+                border: 0 solid #ced4da;
+                font-size: 13px;
+                font-weight: 400;
+                height: 45px;
+                border-radius: 4px;
+            }
+            .search_btn{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 10px;
+                background: transparent;
+                border: none;
+                color: #A7AEB4;
+                outline: none;
+            }
+        }
+    }
+}

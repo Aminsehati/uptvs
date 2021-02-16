@@ -1,0 +1,415 @@
+
+// background
+.bg-white{
+    background-color: #fff;
+}
+.bg-light{
+    background-color: #F5F6F7 ;
+}
+.bg-light1{
+    background-color: #ECEEEF !important;
+}
+// background
+// Color
+.text-gray{
+    color: #A7AEB4 !important;
+}
+.text-white-75{
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.text-orange{
+    color: #FF7555 !important;
+}
+.text-green{
+    color: #89d64f !important;
+}
+.text-yellow{
+    color: #ffc107 !important;
+}
+.text-dark{
+    color: #45474c !important;
+}
+.text-gray{
+    color: #A7AEB4 !important;
+}
+.text-gray1{
+    color: #707070 !important;
+}
+.text-blue{
+    color: #6898f8;
+}
+// Color
+// Border
+.border-orange{
+    border: 1px solid #FF7555;
+}
+.border-green{
+    border: 1px solid #89d64f;
+}
+.border-yellow{
+    border: 1px solid #ffc107;
+}
+.border-bottom{
+    border-bottom: 1px solid #f0f3f9 !important ;
+}
+.border-white{
+    border: 1px solid #fff;
+}
+// Border
+// Margin
+.m-5{
+    margin: 5px !important;
+}
+.mx-5{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.my-5{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+.mt-5{
+    margin-top: 5px !important;
+}
+.mb-5{
+    margin-bottom: 5px !important;
+}
+.mr-5{
+    margin-right: 5px !important;
+}
+.ml-5{
+    margin-left: 5px !important;
+}
+.m-10{
+    margin:10px ;
+}
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mx-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.m-15{
+    margin:15px ;
+}
+.my-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mx-15{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.m-20{
+    margin:20px ;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mx-20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+// Margin
+// Paddign
+.py-2{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.py-3{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.p-5{
+    padding: 5px !important;
+}
+.px-5{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.py-5{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.pt-5{
+    padding-top: 5px !important;
+}
+.pb-5{
+    padding-bottom: 5px !important;
+}
+.pr-5{
+    padding-right: 5px !important;
+}
+.pl-5{
+    padding-left: 5px !important;
+}
+.p-10{
+    padding:10px ;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.p-15{
+    padding:15px ;
+}
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.px-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.p-20{
+    padding:20px ;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.py-18{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+// Paddign
+// Box Shadow
+.shadow{
+    box-shadow: 0 5px 25px rgba(94, 100, 114, 0.13) !important;
+}
+// Box Shadow
+// Font size
+.small-11{
+    font-size: 11px ;
+}
+.small-12{
+    font-size: 12px;
+}
+.small-13{
+    font-size: 13px;
+}
+.small-14{
+    font-size: 14px;
+}
+.small-15{
+    font-size: 15px;
+}
+.small-16{
+    font-size: 16px;
+}
+.small-17{
+    font-size: 17px;
+}
+.small-18{
+    font-size: 18px;
+}
+.small-19{
+    font-size: 19px;
+}
+.small-20{
+    font-size: 20px;
+}
+.small-21{
+    font-size: 21px;
+}
+.small-22{
+    font-size: 22px;
+}
+.small-23{
+    font-size: 23px;
+}
+.small-24{
+    font-size: 24px;
+}
+// Font size
+// Font weight
+.h3{
+    font-weight: 300;
+}
+.h4{
+    font-weight: 400;
+}
+.h5{
+    font-weight: 500;
+}
+.h6{
+    font-weight: 600;
+}
+.h7{
+    font-weight: 700;
+}
+// Font weight
+// line height
+.line-height-45{
+    line-height: 45px;
+}
+// line height
+// Btn
+.btn-45{
+    width: 45px;
+    height: 45px;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.btn-light{
+    background-color: #F3F4F5;
+    border-color: #F3F4F5;
+    color: #8e949a;
+    box-shadow:0 0 !important;
+    transition: all 400ms ease-in-out;
+    &:hover{
+        border: 1px solid rgb(211, 217, 223);
+        background-color: #F3F4F5;
+         color: #8e949a;;
+    }
+}
+.btn-insta{
+    background: linear-gradient(145deg, #FA9F6F, #FA697C) !important;
+    box-shadow:0 3px 20px rgb(250 123 119 / 30%) ;
+    padding: 12px;
+}
+.btn-telegram{
+    padding: 12px;
+    background: linear-gradient(145deg, #96D5F5, #5EBAE8) !important;
+    box-shadow: 0 3px 20px rgb(142 209 243 / 35%);
+}
+// Btn
+// Border Radious
+.rounded{
+    border-radius: 3px !important;
+}
+// Border Radious
+// badge
+.badge{
+    padding: 8px 14px !important;
+}
+.badge-yellow{
+    background-color: #ffc10729;
+}
+.badge-blue{
+    background-color: #6898f824;
+}
+.badge-green{
+    background-color: #89d64f26;
+}
+// badge
+// line height
+.line-height-38{
+    line-height: 38px;
+}
+// line height
+// Position
+.position-sticky{
+    position: sticky !important;
+}
+.top-fixed{
+    top: 0;
+    z-index: 10;
+}
+// Position
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #343637;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 1px grey;
+    background: #000;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #777777;
+}

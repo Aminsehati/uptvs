@@ -1,0 +1,40 @@
+.page-number{
+    display: flex;
+    justify-content: center;
+    .page__number{
+        li{
+            display: inline-block;
+            &.active_page{
+                background-color: #f2f3f4;
+                color: #999999;
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                padding: 0 10px;
+                border-radius: 4px;
+                margin-left: 10px;
+            }
+            a{
+                height: 40px;
+                width: 40px;
+                background-color: #f2f3f4;
+                display: inline-block;
+                text-align: center;
+                line-height: 40px;
+                color: #757575;
+                font-size: 15px;
+                margin-left: 10px;
+                border-radius: 2px;
+                transition: all 200ms ease-in-out;
+                &:hover{
+                    background-color:#6898f8;
+                    color: #fff;
+                }
+                &.active__page{
+                    background-color: #6898f8;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
